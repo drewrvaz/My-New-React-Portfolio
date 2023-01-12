@@ -3,9 +3,9 @@ import './portfolio.css';
 import IMG1 from '../../assets/password_generator.jpeg';
 import IMG2 from '../../assets/klaw_movies.jpeg';
 import IMG3 from '../../assets/weather_app.jpeg';
-// import IMG4 from '../../assets/';
+import IMG4 from '../../assets/dev-team-launch.png';
 import IMG5 from '../../assets/v982-d4-01.jpg';
-// import IMG6 from '../../assets/';
+import IMG6 from '../../assets/imagens-ecommerce.png';
 import Header from '../header/index';
 
 const Portfolio = () => {
@@ -59,17 +59,17 @@ const Portfolio = () => {
           </article>
           <article className='portfolio-item'>
             <div className='portfolio-item-image'>
-              {/*<img src={IMG4} alt='Screenshot of the live password manager'/>*/}
+              <img src={IMG4} alt='Screenshot of the live site'/>
             </div>
-            <h3>Password Manager</h3>
+            <h3>Dev Team Launch</h3>
             <div className='portfolio-item-links'>
-              <a href='https://github.com/drewrvaz/password_manager' className='btn' target='_'>GitHub</a>
-              <a href='https://drewrvaz.github.io/Password-Generator/' className='btn btn-primary' target='_'>Live Site</a>
+              <a href='https://github.com/drewrvaz/dev-team-launch' className='btn' target='_'>GitHub</a>
+              <a href='https://dev-team-launch.herokuapp.com' className='btn btn-primary' target='_'>Live Site</a>
             </div>
           </article>
           <article className='portfolio-item'>
             <div className='portfolio-item-image'>
-              {/*<img src={IMG6} alt='Screenshot of the live random password generator'/>*/}
+              <img src={IMG6} alt='Screenshot of the live random password generator'/>
             </div>
             <h3>E-Commerce Backend</h3>
             <div className='portfolio-item-links'>
