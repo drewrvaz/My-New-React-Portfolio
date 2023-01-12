@@ -48,25 +48,13 @@
   padding-right: 10%;
 }
 
-/* ==================== MEDIA QUERIES (MEDIUM DEVICES) ===================*/
+/* ==================== MEDIA QUERIES (MEDIUM & SMALL DEVICES) ===================*/
 @media screen and (max-width: 1024px) {
   .about-container {
     grid-template-columns: 1fr;
     gap: 0;
   }
 
-  .about-me {
-    width: 50%;
-    margin: 2rem auto 4rem;
-  }
-
-  .about-content p {
-    margin: 1rem 0 1.5rem;
-  }
-}
-
-/* ==================== MEDIA QUERIES (SMALL DEVICES) ===================*/
-@media screen and (max-width: 600px) {
   .about-me {
     width: 65%;
     margin: 0 auto 3rem;

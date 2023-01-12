@@ -7,37 +7,26 @@ import Experience from './components/experience/index';
 import Portfolio from './components/portfolio/index';
 import Contact from './components/contact/index';
 import Footer from './components/footer/index';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Portfolio />
-      <Contact />
-      <Footer />
-    </>
+    
+    <Router>
+      <>
+        <Nav />
+        <Routes>
+          <Route path='/'element={<Header />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/experience' element={<Experience />} />
+          <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+        <Footer />
+      </>
+    </Router>
+    
   )
-  // return (
-  //   <div className="App">
-  //     <header className="App-header">
-  //       <img src={logo} className="App-logo" alt="logo" />
-  //       <p>
-  //         Edit <code>src/App.js</code> and save to reload.
-  //       </p>
-  //       <a
-  //         className="App-link"
-  //         href="https://reactjs.org"
-  //         target="_blank"
-  //         rel="noopener noreferrer"
-  //       >
-  //         Learn React
-  //       </a>
-  //     </header>
-  //   </div>
-  // );
 }
 
 export default App;

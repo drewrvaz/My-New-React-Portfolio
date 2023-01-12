@@ -1,9 +1,6 @@
 import React from 'react';
 import './header.css'
 import CallToAction from './callToAction';
-// import HeaderSocials from './headerSocials';
-// import ME from '../../assets/DSC_0137.JPG';
-
 
 const Header = () => {
   return (
@@ -19,9 +16,3 @@ const Header = () => {
 }
 
 export default Header;
-
-// <HeaderSocials/>
-{/* <div className='me'>
-          <img src={ME} alt="me" />
-        </div>
-        <a href='#contact' className='scroll-to-contact'><h4>Scroll to Contact</h4></a> */}
