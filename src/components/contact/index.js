@@ -12,12 +12,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_88klor9', 'service_88klor9', form.current, 'service_88klor9')
+    emailjs.sendForm('service_88klor9', 'template_wdekmws', form.current, 'xA2yegEkTaxnoOpZI')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+    e.target.reset();
   }
 
   return (
@@ -43,9 +44,9 @@ const Contact = () => {
             </article>
           </div>
           {/*END OF CONTACT OPTIONS*/}
-          <form ref={form} onScumbit={sendEmail}>
-            <input type='text' name='name' placeholder='Your Full Name' required/>
-            <input type='email' name='email' placeholder='Your Email' required/>
+          <form ref={form} onSubmit={sendEmail}>
+            <input type='text' name='name' placeholder='Your First and Last Name' required/>
+            <input type='email' name='email' placeholder='Your Email Address' required/>
             <textarea name='message' rows='5' placeholder='Your Message' required></textarea>
             <button type='submit' className='btn btn-primary'>Send Message</button>
           </form>
