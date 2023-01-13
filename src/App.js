@@ -19,7 +19,7 @@ function App() {
           <Route path='/experience' element={<Experience />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/contact' element={<Contact />} />
-          <Redirect to='My-New-React-Portfolio' />
+          {/* <Redirect to='My-New-React-Portfolio' /> */}
         </Routes>
         <Footer />
       </>
