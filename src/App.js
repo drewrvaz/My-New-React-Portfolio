@@ -6,23 +6,28 @@ import Experience from './components/experience/index';
 import Portfolio from './components/portfolio/index';
 import Contact from './components/contact/index';
 import Footer from './components/footer/index';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    // <Router>
       <>
         <Nav />
-        <Routes>
+        {/* <Routes>
           <Route path='/'element={<Header />} />
           <Route path='/about' element={<About />} />
           <Route path='/experience' element={<Experience />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/contact' element={<Contact />} />
-        </Routes>
+        </Routes> */}
+        <Header />
+        <About />
+        <Experience />
+        <Portfolio />
+        <Contact />
         <Footer />
       </>
-    </Router>
+    // </Router>
   )
 }
 
