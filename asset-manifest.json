@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-New-React-Portfolio/static/css/main.c9a1a785.css",
+    "main.css": "/My-New-React-Portfolio/static/css/main.e481b9fe.css",
     "main.js": "/My-New-React-Portfolio/static/js/main.830dc75b.js",
     "static/js/787.000f6ff5.chunk.js": "/My-New-React-Portfolio/static/js/787.000f6ff5.chunk.js",
     "static/media/DSC_0136.JPG": "/My-New-React-Portfolio/static/media/DSC_0136.aecc627bda4bbba05449.JPG",
@@ -12,12 +12,12 @@
     "static/media/dev-team-launch.png": "/My-New-React-Portfolio/static/media/dev-team-launch.4c0dc40f0e5ff58de395.png",
     "static/media/AndrewVazquezResume.pdf": "/My-New-React-Portfolio/static/media/AndrewVazquezResume.d14d70cd8ad75fa6a3fb.pdf",
     "index.html": "/My-New-React-Portfolio/index.html",
-    "main.c9a1a785.css.map": "/My-New-React-Portfolio/static/css/main.c9a1a785.css.map",
+    "main.e481b9fe.css.map": "/My-New-React-Portfolio/static/css/main.e481b9fe.css.map",
     "main.830dc75b.js.map": "/My-New-React-Portfolio/static/js/main.830dc75b.js.map",
     "787.000f6ff5.chunk.js.map": "/My-New-React-Portfolio/static/js/787.000f6ff5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9a1a785.css",
+    "static/css/main.e481b9fe.css",
     "static/js/main.830dc75b.js"
   ]
 }
