@@ -36,7 +36,6 @@ const About = () => {
             A results driven Fullstack Web Developer leveraging experience in education to create applications better suited for users of all kinds. Earned a Full Stack Web Development certificate from the Michigan State Coding Boot Camp. Passionate about creating applications that users of all abilities and ages can interact with easily.
             </p>
             <a href='/contact' className='btn btn-primary'>Let's Talk</a>
-            <a href={Resume} download className='btn'>Download Resume</a>
           </div>
         </div>
       </section>
