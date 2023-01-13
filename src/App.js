@@ -6,11 +6,10 @@ import Experience from './components/experience/index';
 import Portfolio from './components/portfolio/index';
 import Contact from './components/contact/index';
 import Footer from './components/footer/index';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Redirect } from "react-router-dom";
 
 function App() {
   return (
-    
     <Router>
       <>
         <Nav />
@@ -20,11 +19,11 @@ function App() {
           <Route path='/experience' element={<Experience />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/contact' element={<Contact />} />
+          <Redirect to='My-New-React-Portfolio' />
         </Routes>
         <Footer />
       </>
     </Router>
-    
   )
 }
 
