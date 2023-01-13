@@ -1,5 +1,4 @@
 import './App.css';
-import Header from './components/header/index';
 import Nav from './components/nav/index';
 import About from './components/about/index';
 import Experience from './components/experience/index';
@@ -14,7 +13,6 @@ function App() {
       <>
         <Nav />
         <Routes>
-          <Route path='/My-New-React-Portfolio'element={<Header />} />
           <Route path='/about' element={<About />} />
           <Route path='/experience' element={<Experience />} />
           <Route path='/portfolio' element={<Portfolio />} />
