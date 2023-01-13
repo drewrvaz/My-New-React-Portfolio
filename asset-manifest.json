@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/My-New-React-Portfolio/static/css/main.b62e9e22.css",
-    "main.js": "/My-New-React-Portfolio/static/js/main.1d87abd1.js",
-    "static/js/787.56d9acf9.chunk.js": "/My-New-React-Portfolio/static/js/787.56d9acf9.chunk.js",
-    "static/media/DSC_0136.JPG": "/My-New-React-Portfolio/static/media/DSC_0136.aecc627bda4bbba05449.JPG",
-    "static/media/v982-d4-01.jpg": "/My-New-React-Portfolio/static/media/v982-d4-01.10d6bb0594dcedc5ae72.jpg",
-    "static/media/klaw_movies.jpeg": "/My-New-React-Portfolio/static/media/klaw_movies.742a1f5efe303057de4b.jpeg",
-    "static/media/weather_app.jpeg": "/My-New-React-Portfolio/static/media/weather_app.eff6977f3666c3b92e8c.jpeg",
-    "static/media/imagens-ecommerce.png": "/My-New-React-Portfolio/static/media/imagens-ecommerce.0839080854fb4c12c9f0.png",
-    "static/media/password_generator.jpeg": "/My-New-React-Portfolio/static/media/password_generator.6dd615588bf5287f73fe.jpeg",
-    "static/media/dev-team-launch.png": "/My-New-React-Portfolio/static/media/dev-team-launch.4c0dc40f0e5ff58de395.png",
-    "static/media/AndrewVazquezResume.pdf": "/My-New-React-Portfolio/static/media/AndrewVazquezResume.d14d70cd8ad75fa6a3fb.pdf",
-    "index.html": "/My-New-React-Portfolio/index.html",
-    "main.b62e9e22.css.map": "/My-New-React-Portfolio/static/css/main.b62e9e22.css.map",
-    "main.1d87abd1.js.map": "/My-New-React-Portfolio/static/js/main.1d87abd1.js.map",
-    "787.56d9acf9.chunk.js.map": "/My-New-React-Portfolio/static/js/787.56d9acf9.chunk.js.map"
+    "main.css": "/about/static/css/main.b3206ce2.css",
+    "main.js": "/about/static/js/main.7ea91fa1.js",
+    "static/js/787.000f6ff5.chunk.js": "/about/static/js/787.000f6ff5.chunk.js",
+    "static/media/DSC_0136.JPG": "/about/static/media/DSC_0136.aecc627bda4bbba05449.JPG",
+    "static/media/v982-d4-01.jpg": "/about/static/media/v982-d4-01.10d6bb0594dcedc5ae72.jpg",
+    "static/media/klaw_movies.jpeg": "/about/static/media/klaw_movies.742a1f5efe303057de4b.jpeg",
+    "static/media/weather_app.jpeg": "/about/static/media/weather_app.eff6977f3666c3b92e8c.jpeg",
+    "static/media/imagens-ecommerce.png": "/about/static/media/imagens-ecommerce.0839080854fb4c12c9f0.png",
+    "static/media/password_generator.jpeg": "/about/static/media/password_generator.6dd615588bf5287f73fe.jpeg",
+    "static/media/dev-team-launch.png": "/about/static/media/dev-team-launch.4c0dc40f0e5ff58de395.png",
+    "static/media/AndrewVazquezResume.pdf": "/about/static/media/AndrewVazquezResume.d14d70cd8ad75fa6a3fb.pdf",
+    "index.html": "/about/index.html",
+    "main.b3206ce2.css.map": "/about/static/css/main.b3206ce2.css.map",
+    "main.7ea91fa1.js.map": "/about/static/js/main.7ea91fa1.js.map",
+    "787.000f6ff5.chunk.js.map": "/about/static/js/787.000f6ff5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b62e9e22.css",
-    "static/js/main.1d87abd1.js"
+    "static/css/main.b3206ce2.css",
+    "static/js/main.7ea91fa1.js"
   ]
 }
