@@ -4,7 +4,6 @@ import ME from '../../assets/DSC_0136.JPG';
 import {BiTimeFive} from 'react-icons/bi';
 import {AiOutlineProject} from 'react-icons/ai';
 import Header from '../header/index';
-import Resume from '../../assets/AndrewVazquezResume.pdf';
 
 const About = () => {
   return (
