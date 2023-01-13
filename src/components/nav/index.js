@@ -10,11 +10,11 @@ import {AiOutlineMessage} from 'react-icons/ai'
 const Nav = () => {
   return (
     <nav>
-      <a href='/'><BiHomeAlt/></a>
-      <a href='/about'><FiUser/></a>
-      <a href='/experience'><BiBook/></a>
-      <a href='/portfolio'><MdWorkOutline/></a>
-      <a href='/contact'><AiOutlineMessage/></a>
+      <a href='#'><BiHomeAlt/></a>
+      <a href='#about'><FiUser/></a>
+      <a href='#experience'><BiBook/></a>
+      <a href='#portfolio'><MdWorkOutline/></a>
+      <a href='#contact'><AiOutlineMessage/></a>
     </nav>  
   )
 }
