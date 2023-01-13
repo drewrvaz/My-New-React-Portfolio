@@ -2,12 +2,12 @@ import React from 'react';
 import './experience.css';
 import Resume from '../../assets/AndrewVazquezResume.pdf';
 import {AiOutlineCheckCircle} from 'react-icons/ai';
-import Header from '../header/index';
+// import Header from '../header/index';
 
 const Experience = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <section id='experience'>
         <h5>Langauges/Skills</h5>
         <h2>My Experience</h2>

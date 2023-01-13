@@ -3,12 +3,12 @@ import './about.css';
 import ME from '../../assets/DSC_0136.JPG';
 import {BiTimeFive} from 'react-icons/bi';
 import {AiOutlineProject} from 'react-icons/ai';
-import Header from '../header/index';
+// import Header from '../header/index';
 
 const About = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <section id='about'>
         <h2>Get To Know Me</h2>
 

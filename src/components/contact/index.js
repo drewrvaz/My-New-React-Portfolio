@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com'
 import './contact.css';
 import {AiOutlineMail} from 'react-icons/ai';
 import {BiVoicemail} from 'react-icons/bi';
-import Header from '../header/index';
+// import Header from '../header/index';
 
 const Contact = () => {
   const form = useRef();
@@ -23,7 +23,7 @@ const Contact = () => {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <section id='contact'>
         <h5>Get In Touch</h5>
         <h2>Contact Me</h2>

@@ -6,12 +6,12 @@ import IMG3 from '../../assets/weather_app.jpeg';
 import IMG4 from '../../assets/dev-team-launch.png';
 import IMG5 from '../../assets/v982-d4-01.jpg';
 import IMG6 from '../../assets/imagens-ecommerce.png';
-import Header from '../header/index';
+// import Header from '../header/index';
 
 const Portfolio = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <section id='portfolio'>
         <h5>My Recent Work</h5>
         <h2>Portfolio</h2>
