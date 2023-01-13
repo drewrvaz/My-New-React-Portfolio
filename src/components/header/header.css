@@ -30,7 +30,8 @@ height: 68vh;  }
 /* ==================== MEDIA QUERIES (SMALL DEVICES) ===================*/
 @media screen and (max-width: 600px) {
   header {
-height: 50vh;  }
+    height: 60vh;  
+  }
 
   .callToAction {
     padding-left: 10%;
