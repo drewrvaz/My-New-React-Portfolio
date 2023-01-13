@@ -39,7 +39,7 @@ const Portfolio = () => {
           </article>
           <article className='portfolio-item'>
             <div className='portfolio-item-image'>
-              <img src={IMG2} alt='Screenshot of the live weather app'/>
+              <img src={IMG3} alt='Screenshot of the live weather app'/>
             </div>
             <h3>Weather App</h3>
             <div className='portfolio-item-links'>
@@ -49,7 +49,7 @@ const Portfolio = () => {
           </article>
           <article className='portfolio-item'>
             <div className='portfolio-item-image'>
-              <img src={IMG3} alt='Screenshot of the live movie app'/>
+              <img src={IMG2} alt='Screenshot of the live movie app'/>
             </div>
             <h3>KLAW Movies</h3>
             <div className='portfolio-item-links'>

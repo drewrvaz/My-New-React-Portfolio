@@ -23,7 +23,7 @@ const About = () => {
               <article className='about-card'>
                 <BiTimeFive/>
                 <h2>Experience</h2>
-                <h5>1 Year Working</h5>
+                <h5>4 Years Working</h5>
               </article>
               <article className='about-card'>
                 <AiOutlineProject/>
